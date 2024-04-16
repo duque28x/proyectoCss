@@ -1,0 +1,177 @@
+h1 {
+    color: #A0D02E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 { 
+    color: white;
+    background: #9ED033;
+}
+
+.flexContenedorPrincipal{
+    display: flex;
+    background-image: url(../recursos/imagenes/fondo.jpeg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    flex-direction: column;
+    padding-left: 15%;
+}
+.flexContenedorBarra{
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.divPosicionLogo{
+    background-color: white;
+    align-content: center;
+    height: 60px;
+}
+.divPosicionLogo > h3{
+    margin-right: 200px;
+    margin-top:  0px;
+    font-size: small;
+    color: #a2a2a9;
+}
+
+.divPosicionLogo > img{
+    width: 90%;
+    height: 45px;
+}
+
+.divMenu{
+    background-color: white;
+    align-content: center;
+    width: 9%;
+    height: 60px;
+    text-align: center;
+}
+
+.aMenu{
+    font-size: 15px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: #bcbcc0;
+}
+
+.divVerde{
+    background-color: #9ED033;
+}
+
+.divContenedorCuadro{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.divContenedorCuadro > p{
+    color: #a2a2a9;
+}
+
+.PRojo {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    background: #E0484F;
+    width: 30%;
+    height: 40px;
+}
+
+button { 
+    font-weight: bold;
+    color: white;
+    background: #9ED033;
+    border: 0;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 30px;
+}
+
+.divLugares {
+    background: #9ED033;
+    color: white;
+    width: 18%;
+    height: 35px;
+    margin-right: 25px;
+    text-align: center;
+    align-content: center;
+}
+
+.flexContenedorSecundario{
+    display: flex;
+    background: white;
+    margin-left: 16%;
+}
+
+.divCiudades{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 18%;
+}
+
+.divCiudades > img{
+    width: 100%;
+    height: 150px;
+}
+
+.divCiudades > button{
+    font-weight: bold;
+    width: 100%;
+}
+.pVerde{
+    font-weight: bold;
+    color: #9ED033;
+}
+.pRojo{
+    color: #e54747;
+    font-size: 12px;
+}
+
+.divImagenes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 100px;
+    background-color: #eeeeee;
+}
+
+.divImagenes img{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #b8b3b3;
+    border-top: none;
+    border-bottom:none;
+}
+
+.divEspecial{
+    width: 13%; 
+    height: 100%;
+}
+
+.divFinal{
+    display: flex;
+    margin-top: 50px;
+}
+
+.logoFinal{
+    display: flex;
+    width: 34%;
+    justify-content: flex-end;
+    margin-left: 35px;
+}
+
+.divFinal p{
+    width: 70%;
+    color: #a2a2a9;
+}
